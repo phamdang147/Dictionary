@@ -1,0 +1,73 @@
+@abolishable
+/ə'bɔliʃəbl/
+*  tính từ
+- có thể thủ tiêu, có thể bãi bỏ, có thể huỷ bỏ
+
+@abolisher
+/ə'bɔliʃə/
+*  danh từ
+- người thủ tiêu, người bãi bỏ, người huỷ bỏ
+
+@abolishment
+/ə'bɔliʃmənt/
+*  danh từ
+- sự thủ tiêu, sự bãi bỏ, sự huỷ bỏ
+
+@abolition
+/,æbə'liʃn/
+*  danh từ
+- sự thủ tiêu, sự bãi bỏ, sự huỷ bỏ
+=abolition of taxes+ sự bãi bỏ thuế
+=abolition of slavery+ sự thủ tiêu chế độ nô lệ
+
+@abolitionise
+/,æbə'liʃənaiz/ (abolitionise)
+/,æbə'liʃənaiz/
+*  ngoại động từ
+- (từ Mỹ,nghĩa Mỹ) làm cho theo chủ nghĩa bãi nô
+
+@abolitionism
+/,æbə'liʃənizm/
+*  danh từ
+- (sử học) chủ nghĩa bãi nô
+
+@abolitionist
+/,æbə'liʃənist/
+*  danh từ
+- người theo chủ nghĩa bãi nô
+
+@abolitionize
+/,æbə'liʃənaiz/
+(abolitionise)
+/,æbə'liʃənaiz/
+*  ngoại động từ
+- (từ Mỹ,nghĩa Mỹ) làm cho theo chủ nghĩa bãi nô
+
+@abominable
+/ə'bɔminəbl/
+*  tính từ
+- ghê tởm, kinh tởm
+=an abominable crime tội ác ghê tởm+ (thông tục) tồi, tồi tệ, rất xấu
+=abominable weather+ thời tiết rất xấu
+=an abominable meal+ bữa cơm tồi
+
+@abominableness
+/ə'bɔminəblnis/
+*  danh từ
+- sự ghê tởm, sự kinh tởm
+- (thông tục) sự tồi tệ
+
+@abominate
+/ə'bɔmineit/
+*  ngoại động từ
+- ghê tởm; ghét cay ghét đắng
+- (thông tục) không ưa, ghét mặt
+*  tính từ
+- (thơ ca) ghê tởm, kinh tởm
+
+@hello
+- xin  chào
+
+@hello
+
+#
