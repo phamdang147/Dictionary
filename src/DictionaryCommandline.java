@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DictionaryCommandline extends DictionaryManagement {
+//gfdgfcnhgfc
 
     public void showAllWords(ArrayList<Word> listWord) {
         System.out.println("------------ SHOW-ALL-WORDS ------------" + '\n');
