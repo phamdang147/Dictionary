@@ -1,19 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c2ca9c2-5357-4955-8586-2163cb4f6d4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anhviet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/anhviet.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DictionaryCommandline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryCommandline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Animal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/Animal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/out/production/Animal/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/out/production/Animal/AnimalList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/src/AnimalList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Circle/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Circle/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Circle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Circle/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Circle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Circle/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Circle/Circle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Circle/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Circle/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dictionary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/DictionaryApplication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/anhviet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/dictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/dictionaryExportToFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/Dictionary/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/Dictionary/DictionaryCommandline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/Dictionary/DictionaryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/Dictionary/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/Dictionary/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/DictionaryApplication/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/DictionaryApplication/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/DictionaryApplication/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anhviet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fraction/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fraction/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fraction/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fraction/Fraction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fraction/out/production/Fraction/Fraction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fraction/src/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fraction/src/Fraction.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Person/Person.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Person/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Person/src/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Person/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shape/Shape.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shape/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shape/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shape/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shape/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Solution/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Solution/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Solution/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Solution/Solution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Solution/dictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Solution/out/production/Solution/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Solution/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student/Student.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student/out/production/Student/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student/out/production/Student/Student.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student/out/production/Student/StudentManagement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student/src/StudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/VendingMachine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/VendingMachineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/Week4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/Week4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/out/production/Week4/main/java/Week4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/out/production/Week4/main/java/Week4Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/src/main/java/Week4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/src/main/java/Week4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/sample/sample.fxml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,49 +154,135 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
-  <component name="ProjectId" id="1iVheIVA7ChhQwArOP1XVdnHRZJ" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1irFt1vj6ZQwglXJJ0geGPiTpAa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="sample" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Dictionary" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="DictionaryMaven" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3c2ca9c2-5357-4955-8586-2163cb4f6d4c" name="Default Changelist" comment="" />
-      <created>1601998760855</created>
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601998760855</updated>
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -76,5 +294,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1602661950814">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1602661950814" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1602661950814">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1602661950814" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1602661950814">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1602661950814" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1602661950814">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1602661950814" />
   </component>
 </project>
