@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class DictionaryManagement {
     public void insertFromCommandline(ArrayList<Word> listWord) {
         Scanner sc = new Scanner(System.in);
-        int amount = 0;
+        int amount;
         System.out.print("Nhap so luong tu vung: ");
         amount = sc.nextInt();
         sc.nextLine();
@@ -27,18 +27,20 @@ public class DictionaryManagement {
         try {
             FileReader file = new FileReader("anhviet.txt");
             BufferedReader input = new BufferedReader(file);
-            String line, target = null, explain = "";
+            String line;
+            String target = null;
+            StringBuilder explain = new StringBuilder();
             while ((line = input.readLine()) != null) {
                 if (line.startsWith("@")) {
-                    target = line;
+                    target = line.substring(1);
                 }
                 if ((!line.startsWith("@")) && (line.length() > 1)) {
-                    explain = explain + line + '\n';
+                    explain.append(line).append('\n');
                 }
-                if (line.length() <= 1 && (target != null) && (explain != null)) {
-                    Word word = new Word(target, explain);
+                if (line.length() <= 1 && target != null) {
+                    Word word = new Word(target, explain.toString());
                     listWord.add(word);
-                    explain = "";
+                    explain = new StringBuilder();
                 }
             }
             input.close();
@@ -70,7 +72,6 @@ public class DictionaryManagement {
     public void dictionaryAddWord(ArrayList<Word> listWord) {
         System.out.print("Nhap tu can them: ");
         String target = new Scanner(System.in).nextLine();
-        target = '@' + target;
         System.out.print("Nhap nghia: ");
         String explain = new Scanner(System.in).nextLine();
         explain = explain + '\n';
@@ -87,7 +88,6 @@ public class DictionaryManagement {
         boolean noSuchWord = true;
         System.out.print("Nhap tu can sua: ");
         String target = new Scanner(System.in).nextLine();
-        target = '@' + target;
         for (Word word : listWord) {
             if(target.equals(word.getWordTarget())) {
                 System.out.print("Nhap nghia: ");
@@ -117,10 +117,10 @@ public class DictionaryManagement {
 
     public void dictionaryExportToFile(ArrayList<Word> listWord) {
         try {
-            FileWriter file = new FileWriter("dictionaryExportToFile.txt");
+            FileWriter file = new FileWriter("anhviet.txt");
             BufferedWriter output = new BufferedWriter(file);
             for (Word word : listWord) {
-                output.write(word.getWordTarget() + '\n');
+                output.write('@' + word.getWordTarget() + '\n');
                 output.write(word.getWordExplain() + '\n');
             }
 

@@ -6,6 +6,6 @@ public class Dictionary extends DictionaryCommandline {
     public ArrayList<Word> listWord;
 
     public Dictionary() {
-        listWord = new ArrayList<Word>();
+        listWord = new ArrayList<>();
     }
 }

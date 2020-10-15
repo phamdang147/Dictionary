@@ -1,25 +1,24 @@
 package sample;
 
-
-
 import DictionaryCommandline.Dictionary;
 import DictionaryCommandline.Word;
 
-import javafx.event.EventHandler;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyEvent;
-import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
 
+import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Optional;
 import java.util.ResourceBundle;
-import java.util.function.Predicate;
 
 public class Controller implements Initializable {
     @FXML
@@ -29,22 +28,120 @@ public class Controller implements Initializable {
     @FXML
     private Button buttonSearch;
     @FXML
+    private Button buttonVoice;
+    @FXML
     private ListView<String> listView;
 
+    ArrayList<Word> listWord = new ArrayList<>();
+    Dictionary dictionary = new Dictionary();
+
     /**
-     * Xu ly su kien button.
+     * button tra tu.
      */
-    public void hamclick() {
-        ArrayList<Word> listWord = new ArrayList<Word>();
-        Dictionary dictionary = new Dictionary();
-        dictionary.insertFromFile(listWord);
+    public void searchWord() {
+        boolean noSuchWord = true;
         String target = textSearch.getText();
         for (Word word : listWord) {
             if(target.equals(word.getWordTarget())) {
                 textMeaning.setText(word.getWordExplain());
+                noSuchWord = false;
                 break;
             }
         }
+        if (noSuchWord) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Search Word");
+            alert.setHeaderText(null);
+            alert.setContentText("Not found word!");
+            alert.showAndWait();
+        }
+    }
+
+    /**
+     * button phat am thanh.
+     */
+    public void voiceWord() {
+        if (textSearch.getText().length() == 0) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Speech Word");
+            alert.setHeaderText(null);
+            alert.setContentText("Not found Word!");
+            alert.showAndWait();
+        }
+        Voice voiceWord = new Voice("kevin16");
+        voiceWord.say(textSearch.getText());
+    }
+
+    /**
+     * button them tu.
+     */
+    public void addWord(ActionEvent event) throws IOException {
+        Stage stage = (Stage)((Node) event.getSource()).getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("addWord.fxml"));
+        Parent addWordParent = loader.load();
+        Scene scene = new Scene(addWordParent);
+        stage.setScene(scene);
+    }
+
+    /**
+     * button sua tu.
+     */
+    public void replaceWord(ActionEvent event) throws IOException {
+        if (textSearch.getText().length() == 0) {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Replace Word");
+            alert.setHeaderText(null);
+            alert.setContentText("Please select the word you want to replace!");
+            alert.showAndWait();
+        } else {
+            Stage stage = (Stage)((Node) event.getSource()).getScene().getWindow();
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("replaceWord.fxml"));
+            Parent replaceWordParent = loader.load();
+            Scene scene = new Scene(replaceWordParent);
+            replaceWordController controller = loader.getController();
+            Word selected = new Word(textSearch.getText(), textMeaning.getText());
+            controller.setWord(selected);
+            stage.setScene(scene);
+        }
+    }
+
+    /**
+     * button xoa tu.
+     */
+    public void deleteWord() {
+        if (textSearch.getText() == null) {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Delete Word");
+            alert.setHeaderText(null);
+            alert.setContentText("Please select the word you want to delete!");
+            alert.showAndWait();
+        }
+        int i = 0;
+        for (Word word : listWord) {
+            if(textSearch.getText().equals(word.getWordTarget())) {
+                Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+                alert.setTitle("Delete Word");
+                alert.setHeaderText("Are you sure you want to delete this word from the dictionary?");
+                alert.setContentText(textSearch.getText());
+
+                Optional<ButtonType> option = alert.showAndWait();
+                if (option.get() == ButtonType.OK) {
+                    listWord.remove(i);
+                    listView.getItems().remove(textSearch.getText());
+                    textSearch.clear();
+                    textMeaning.clear();
+                    break;
+                } else if (option.get() == ButtonType.CANCEL) {
+                    break;
+                } else {
+                    break;
+                }
+            }
+            i++;
+        }
+        dictionary.dictionaryExportToFile(listWord);
     }
 
     /**
@@ -52,67 +149,44 @@ public class Controller implements Initializable {
      */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        ArrayList<Word> listWord = new ArrayList<Word>();
-        Dictionary dictionary = new Dictionary();
         dictionary.insertFromFile(listWord);
-        ArrayList<String> listWordTarget = new ArrayList<String>();
+        ArrayList<String> listWordTarget = new ArrayList<>();
         for (Word allWords : listWord) {
             listWordTarget.add(allWords.getWordTarget());
         }
-        for (String show : listWordTarget) {
-            System.out.println(show);
-        }
+        listView.getItems().clear();
         listView.getItems().addAll(listWordTarget);
 
-        /**
-         * Loc tu.
-         */
-        textSearch.setOnKeyReleased(new EventHandler<KeyEvent>() {
-            @Override
-            public void handle(KeyEvent event) {
-                String item = textSearch.getText();
-                ArrayList<String> match = new ArrayList<String>(listWordTarget);
+        //Loc tu trong listView
+        textSearch.setOnKeyReleased(event -> {
+            String item = textSearch.getText();
+            ArrayList<String> match = new ArrayList<>(listWordTarget);
 
-                match.removeIf(new Predicate<String>() {
-                    @Override
-                    public boolean test(String s) {
-                        return !s.startsWith(item);
-                    }
-                });
-                listView.getItems().clear();
-                listView.getItems().addAll(match);
-            }
+            match.removeIf(s -> !s.startsWith(item));
+            listView.getItems().clear();
+            listView.getItems().addAll(match);
         });
 
-        /**
-         * Bat su kien trong textField.
-         */
-        listView.setOnMouseClicked(new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent event) {
-                String item = listView.getSelectionModel().getSelectedItem();
-                for (Word word : listWord) {
-                    if(item.equals(word.getWordTarget())) {
-                        textMeaning.setText(word.getWordExplain());
-                        break;
-                    }
+        //Bat su kien trong textField
+        listView.setOnMouseClicked(event -> {
+            String item = listView.getSelectionModel().getSelectedItem();
+            for (Word word : listWord) {
+                if(item.equals(word.getWordTarget())) {
+                    textSearch.setText(item);
+                    textMeaning.setText(word.getWordExplain());
+                    break;
                 }
             }
         });
 
-        /**
-         * Bat su kien khi nhap vao ky tu Enter
-         */
-        textSearch.setOnKeyPressed(new EventHandler<KeyEvent>() {
-            @Override
-            public void handle(KeyEvent event) {
-                if (event.getCode() == KeyCode.ENTER) {
-                    String target = textSearch.getText();
-                    for (Word word : listWord) {
-                        if(target.equals(word.getWordTarget())) {
-                            textMeaning.setText(word.getWordExplain());
-                            break;
-                        }
+        //Bat su kien khi nhap vao ky tu Enter
+        textSearch.setOnKeyPressed(event -> {
+            if (event.getCode() == KeyCode.ENTER) {
+                String target = textSearch.getText();
+                for (Word word : listWord) {
+                    if(target.equals(word.getWordTarget())) {
+                        textMeaning.setText(word.getWordExplain());
+                        break;
                     }
                 }
             }

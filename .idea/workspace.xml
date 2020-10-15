@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../API/API.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Animal/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Animal/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Animal/.idea/workspace.xml" afterDir="false" />
@@ -28,7 +29,22 @@
       <change afterPath="$PROJECT_DIR$/../Circle/Circle.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Circle/src/Circle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Circle/src/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dictionary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cmu_us_kal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cmu_us_kal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cmulex.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/en_us.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/freetts.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/Voice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/addWord.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/addWordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/replaceWord.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/replaceWordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Voice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/addWord.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/addWordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/replaceWord.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/replaceWordController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DictionaryApplication/DictionaryApplication.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DictionaryApplication/anhviet.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DictionaryApplication/dictionary.txt" afterDir="false" />
@@ -42,8 +58,11 @@
       <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/DictionaryApplication/Controller.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/DictionaryApplication/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DictionaryApplication/src/main/java/DictionaryApplication/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anhviet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryMaven/DictionaryMaven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryMaven/anhviet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryMaven/dictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryMaven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DictionaryMaven/src/main/resources/Sample.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Fraction/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Fraction/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Fraction/.idea/workspace.xml" afterDir="false" />
@@ -51,6 +70,7 @@
       <change afterPath="$PROJECT_DIR$/../Fraction/out/production/Fraction/Fraction.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Fraction/src/Fraction.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Fraction/src/Fraction.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MavenProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Person/Person.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Person/src/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Person/src/Staff.java" afterDir="false" />
@@ -76,6 +96,9 @@
       <change afterPath="$PROJECT_DIR$/../Student/out/production/Student/StudentManagement.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Student/src/Student.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Student/src/StudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeech/TextToSpeech.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeech/lib/gtranslateapi-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeech/lib/jl1.0.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/workspace.xml" afterDir="false" />
@@ -97,9 +120,35 @@
       <change afterPath="$PROJECT_DIR$/../Week4/out/production/Week4/main/java/Week4Test.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Week4/src/main/java/Week4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Week4/src/main/java/Week4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gTranslate/gTranslate.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/sample/Controller.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/sample/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voice/lib/cmu_us_kal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voice/lib/cmulex.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voice/lib/en_us.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voice/lib/freetts.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voice/voice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DictionaryMaven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DictionaryMaven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryMaven/DictionaryCommandline/DictionaryCommandline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryMaven/DictionaryCommandline/DictionaryCommandline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryMaven/DictionaryCommandline/DictionaryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryMaven/DictionaryCommandline/DictionaryManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/Controller$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/Controller$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/Controller$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryMaven/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DictionaryCommandline/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryCommandline/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DictionaryCommandline/DictionaryCommandline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryCommandline/DictionaryCommandline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DictionaryCommandline/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryCommandline/DictionaryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +199,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -160,7 +210,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1irFt1vj6ZQwglXJJ0geGPiTpAa" />
@@ -180,13 +230,25 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/freetts.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="sample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pham Dang\IdeaProjects\Dictionary\src\sample" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pham Dang\IdeaProjects\Dictionary\lib" />
     </key>
   </component>
   <component name="RunManager">
@@ -301,21 +363,45 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1602661950814">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1602689127837">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1602661950814" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1602661950814">
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1602689127837" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602693227284">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1602661950814" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1602661950814">
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1602693227284" />
+    <state x="477" y="171" key="FileChooserDialogImpl" timestamp="1602758029958">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1602661950814" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1602661950814">
+    <state x="477" y="171" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1602758029958" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1602785426840">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1602661950814" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1602785426840" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1602785426839">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1602785426839" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1602785426839">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1602785426839" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1602785426839">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1602785426839" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1602758035146">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1602758035146" />
+    <state x="274" y="0" key="new project wizard" timestamp="1602757664475">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="274" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1602757664475" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1602781229045">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1602781229045" />
   </component>
 </project>

@@ -6,12 +6,16 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.261" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-   <children>
-      <TextField fx:id="textSearch" layoutX="61.0" layoutY="38.0" />
-      <Button fx:id="buttonSearch" layoutX="230.0" layoutY="38.0" mnemonicParsing="false" onAction="#hamclick" text="Button" />
-      <ListView fx:id="listView" layoutX="56.0" layoutY="77.0" prefHeight="413.0" prefWidth="155.0" />
-      <TextArea fx:id="textMeaning" layoutX="230.0" layoutY="77.0" prefHeight="263.0" prefWidth="329.0" />
-   </children>
+         <children>
+            <ListView fx:id="listView" layoutX="14.0" layoutY="29.0" prefHeight="538.0" prefWidth="165.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="50.0" />
+            <TextField fx:id="textSearch" layoutX="260.0" layoutY="50.0" prefHeight="26.0" prefWidth="239.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="50.0" />
+            <TextArea fx:id="textMeaning" editable="false" layoutX="291.0" layoutY="125.0" prefHeight="341.0" prefWidth="263.0" wrapText="true" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="125.0" />
+            <Button fx:id="buttonSearch" layoutX="378.0" layoutY="85.0" mnemonicParsing="false" onAction="#searchWord" prefHeight="32.0" prefWidth="57.0" text="Search" AnchorPane.leftAnchor="335.0" />
+            <Button fx:id="buttonVoice" layoutX="481.0" layoutY="85.0" mnemonicParsing="false" onAction="#voiceWord" prefHeight="32.0" prefWidth="57.0" text="Voice" AnchorPane.rightAnchor="65.0" />
+            <Button fx:id="buttonAdd" layoutX="212.0" layoutY="160.0" mnemonicParsing="false" onAction="#addWord" prefHeight="32.0" prefWidth="64.0" text="Add" AnchorPane.topAnchor="175.0" />
+            <Button fx:id="buttonReplace" layoutX="212.0" layoutY="319.0" mnemonicParsing="false" onAction="#replaceWord" prefHeight="32.0" prefWidth="64.0" text="Replace" AnchorPane.bottomAnchor="100.0" />
+            <Button fx:id="buttonDelete" layoutX="212.0" layoutY="247.0" mnemonicParsing="false" onAction="#deleteWord" prefHeight="32.0" prefWidth="64.0" text="Delete" AnchorPane.bottomAnchor="171.0" />
+         </children>
 </AnchorPane>
