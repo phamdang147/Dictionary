@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.261" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.SearchWord.SearchWordController">
+   <children>
+      <TextField fx:id="textSearch" layoutX="164.0" layoutY="83.0" prefHeight="25.0" prefWidth="200.0" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="80.0" />
+      <TextArea fx:id="textMean" editable="false" layoutX="164.0" layoutY="132.0" prefHeight="252.0" prefWidth="273.0" wrapText="true" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="120.0" />
+      <Label layoutX="220.0" layoutY="18.0" text="Search Word" textFill="#0c92da">
+         <font>
+            <Font name="Dubai Regular" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSearch" layoutX="380.0" layoutY="80.0" mnemonicParsing="false" onAction="#searchWord" text="Search" AnchorPane.topAnchor="80.0" />
+      <Button fx:id="btnSpeech" layoutX="445.0" layoutY="80.0" mnemonicParsing="false" onAction="#speechWord" text="Speech" AnchorPane.topAnchor="80.0" />
+      <ListView fx:id="listView" fixedCellSize="0.0" layoutX="14.0" layoutY="83.0" prefHeight="301.0" prefWidth="137.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="450.0" AnchorPane.topAnchor="80.0" />
+      <Button fx:id="btnBackMain" layoutX="531.0" layoutY="360.0" mnemonicParsing="false" onAction="#backMain" text="Back" AnchorPane.rightAnchor="30.0" />
+      <Button fx:id="btnDeleteWord" layoutX="524.0" layoutY="188.0" mnemonicParsing="false" onAction="#deleteWord" text="Delete" />
+      <Button fx:id="btnAddWord" layoutX="531.0" layoutY="120.0" mnemonicParsing="false" onAction="#addWord" text="Add" />
+      <Button fx:id="btnReplaceWord" layoutX="521.0" layoutY="259.0" mnemonicParsing="false" onAction="#replaceWord" text="Replace" />
+   </children>
+</AnchorPane>

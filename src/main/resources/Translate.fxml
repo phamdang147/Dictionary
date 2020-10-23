@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.261" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Translate.TranslateController">
+   <children>
+      <Label layoutX="196.0" layoutY="6.0" text="Google Translate" textAlignment="CENTER" textFill="#079ff2" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="195.0" AnchorPane.topAnchor="5.0">
+         <font>
+            <Font name="Dubai Regular" size="30.0" />
+         </font></Label>
+      <TextArea fx:id="textMean" editable="false" layoutX="376.0" layoutY="101.0" prefHeight="217.0" prefWidth="301.0" wrapText="true" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="330.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="90.0" />
+      <Button fx:id="btnSearch" layoutX="274.0" layoutY="130.0" mnemonicParsing="false" onAction="#searchWord" text="Search" />
+      <Button fx:id="btnSpeech" layoutX="273.0" layoutY="175.0" mnemonicParsing="false" onAction="#speechWord" text="Speech" />
+      <Button fx:id="btnBackMain" layoutX="280.0" layoutY="345.0" mnemonicParsing="false" onAction="#backMain" text="Back" />
+      <TextArea fx:id="textSearch" layoutX="21.0" layoutY="60.0" prefHeight="266.0" prefWidth="250.0" wrapText="true" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="330.0" AnchorPane.topAnchor="90.0" />
+      <Label layoutX="262.0" layoutY="60.0" text="Translate to">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="62.0" text="English">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="419.0" layoutY="62.0" text="Vietnamese">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
